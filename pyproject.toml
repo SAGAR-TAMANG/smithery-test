@@ -1,5 +1,5 @@
 [project]
-name = "my-smithery-test"
+name = "smithery-test"
 version = "0.1.0"
 description = "A test of custom MCP server for Railway."
 authors = [{ name = "Sagar Tamang", email = "cs22bcagn033@kazirangauniversity.in" }]
