@@ -2,6 +2,9 @@ from mcp.server.fastmcp import FastMCP
 
 mcp = FastMCP("My Smithery Test")
 
+mcp.settings.host = "0.0.0.0"
+mcp.settings.port = "8000"
+
 @mcp.tool()
 def custom_greet(name: str) -> str:
     """
