@@ -1,13 +1,9 @@
 [project]
 name = "smithery-test"
 version = "0.1.0"
-description = "A test of custom MCP server for Railway."
-authors = [{ name = "Sagar Tamang", email = "cs22bcagn033@kazirangauniversity.in" }]
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
 dependencies = [
-    "mcp[cli]",
+    "mcp[cli]>=1.12.0",
 ]
-requires-python = ">=3.8"
-
-[build-system]
-requires = ["uv >= 0.1.0"]
-build-backend = "uv.backend"
