@@ -15,3 +15,7 @@ def custom_greet(name: str) -> str:
     """
     
     return f"Hey {name}"
+
+if __name__ == "__main__":
+    # This will run the MCP server when the script is executed.
+    mcp.run()
